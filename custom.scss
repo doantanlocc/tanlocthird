@@ -1,0 +1,95 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red
+}
+
+.green {
+    border: 1px solid green
+}
+
+.banner {
+    height: 865px;
+
+    padding: 20px;
+
+    .about-sign-in {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+
+        .about,
+        .sign-in {
+            margin-top: 20px;
+            padding: 7px 15px;
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .sign-in {
+            border: 1px solid green;
+            margin-right: 65px;
+            margin-left: 30px;
+            border-radius: 50px;
+            padding: 10px;
+
+        }
+    }
+
+    .logo {
+        background: url('./hapoERp.png') center center no-repeat;
+        margin-top: 40px;
+        height: 100px;
+    }
+
+    .text {
+        span {
+            font-size: 18px;
+        }
+
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        font-size: 25px;
+        font-style: italic;
+    }
+
+    .bnt-start-now {
+        text-align: center;
+
+        button {
+            border: 1px solid green;
+            cursor: pointer;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            border-radius: 30px;
+        }
+    }
+
+    .content-center {
+
+        .left,
+        .center,
+        .right {
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        span {
+            display: block;
+            font-size: 40px;
+        }
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
+    }
+}
